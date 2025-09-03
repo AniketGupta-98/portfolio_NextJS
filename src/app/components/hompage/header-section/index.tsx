@@ -10,6 +10,7 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 
 export default function HeaderSection() {
+  
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
@@ -46,13 +47,13 @@ export default function HeaderSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -60,13 +61,13 @@ export default function HeaderSection() {
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">

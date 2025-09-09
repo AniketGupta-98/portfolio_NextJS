@@ -6,9 +6,9 @@ export default async function Home() {
 
   return (
     <div suppressHydrationWarning >
-      <HeaderSection/>
-      <AboutSection/>
-      <Experience/>
+      <HeaderSection />
+      <AboutSection />
+      <Experience />
     </div>
   )
 };
